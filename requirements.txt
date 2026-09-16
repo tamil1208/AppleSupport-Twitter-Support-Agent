@@ -1,0 +1,8 @@
+# The default path (no ANTHROPIC_API_KEY set) uses only the Python
+# standard library -- csv, re, math, hashlib, collections. Nothing to
+# install for `python3 run_demo.py` to work.
+
+# Optional: only needed if you set ANTHROPIC_API_KEY and want the LLM
+# classification / reply-drafting / judging path instead of the
+# deterministic rule/template/heuristic fallback.
+anthropic>=0.40.0
